@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bow-chiron",
+    "weapon": "Bow",
+    "aspect": "Aspect of Chiron",
+    "summary": "Dionysus Special plus Aphrodite Attack to enable Low Tolerance while Chiron marks targets for stacked specials.",
+    "flexMirror": "Family Favorite",
+    "coreSynergies": [
+      { "primaryGod": "Dionysus", "essentialBoon": "Drunken Flourish", "slot": "Special" },
+      { "primaryGod": "Aphrodite", "essentialBoon": "Heartbreak Strike", "slot": "Attack" }
+    ],
+    "targetDuoBoons": [
+      { "name": "Low Tolerance", "pair": ["Dionysus", "Aphrodite"], "priority": 5 }
+    ],
+    "hammerPriorities": ["Relentless Volley", "Piercing Volley", "Concentrated Volley"]
+  },
+  {
+    "id": "rail-eris",
+    "weapon": "Rail",
+    "aspect": "Aspect of Eris",
+    "summary": "Zeus Attack and Poseidon Dash convert Eris' global damage boost into a fast Sea Storm chase.",
+    "flexMirror": "Family Favorite",
+    "coreSynergies": [
+      { "primaryGod": "Zeus", "essentialBoon": "Lightning Strike", "slot": "Attack" },
+      { "primaryGod": "Poseidon", "essentialBoon": "Tidal Dash", "slot": "Dash" }
+    ],
+    "targetDuoBoons": [
+      { "name": "Sea Storm", "pair": ["Zeus", "Poseidon"], "priority": 5 }
+    ],
+    "hammerPriorities": ["Rocket Bomb", "Triple Bomb", "Cluster Bomb"]
+  },
+  {
+    "id": "blade-arthur",
+    "weapon": "Blade",
+    "aspect": "Aspect of Arthur",
+    "summary": "Aphrodite and Athena stabilize Arthur's slower swings while setting up Heart Rend pressure.",
+    "flexMirror": "Privileged Status",
+    "coreSynergies": [
+      { "primaryGod": "Athena", "essentialBoon": "Divine Dash", "slot": "Dash" },
+      { "primaryGod": "Aphrodite", "essentialBoon": "Heartbreak Flourish", "slot": "Special" }
+    ],
+    "targetDuoBoons": [
+      { "name": "Heart Rend", "pair": ["Artemis", "Aphrodite"], "priority": 4 }
+    ],
+    "hammerPriorities": ["Shadow Slash", "Greater Consecration", "Double Edge"]
+  },
+  {
+    "id": "spear-achilles",
+    "weapon": "Spear",
+    "aspect": "Aspect of Achilles",
+    "summary": "Achilles boosts cast damage, making Ares Blade Rifts and Artemis duo access the central path.",
+    "flexMirror": "Family Favorite",
+    "coreSynergies": [
+      { "primaryGod": "Ares", "essentialBoon": "Slicing Shot", "slot": "Cast" },
+      { "primaryGod": "Artemis", "essentialBoon": "Hunter Dash", "slot": "Dash" }
+    ],
+    "targetDuoBoons": [
+      { "name": "Hunting Blades", "pair": ["Ares", "Artemis"], "priority": 5 }
+    ],
+    "hammerPriorities": ["Flurry Jab", "Serrated Point", "Exploding Launcher"]
+  },
+  {
+    "id": "shield-beowulf",
+    "weapon": "Shield",
+    "aspect": "Aspect of Beowulf",
+    "summary": "Poseidon Cast loaded into Dragon Rush chases Mirage Shot for burst-heavy clears.",
+    "flexMirror": "Family Favorite",
+    "coreSynergies": [
+      { "primaryGod": "Poseidon", "essentialBoon": "Flood Flare", "slot": "Cast" },
+      { "primaryGod": "Artemis", "essentialBoon": "Deadly Strike", "slot": "Attack" }
+    ],
+    "targetDuoBoons": [
+      { "name": "Mirage Shot", "pair": ["Poseidon", "Artemis"], "priority": 5 }
+    ],
+    "hammerPriorities": ["Charged Flight", "Sudden Rush", "Dashing Wallop"]
+  },
+  {
+    "id": "fists-demeter",
+    "weapon": "Fists",
+    "aspect": "Aspect of Demeter",
+    "summary": "Ares Attack and Athena utility aim for Merciful End while Demeter's charged special deletes priority targets.",
+    "flexMirror": "Privileged Status",
+    "coreSynergies": [
+      { "primaryGod": "Ares", "essentialBoon": "Curse of Agony", "slot": "Attack" },
+      { "primaryGod": "Athena", "essentialBoon": "Divine Flourish", "slot": "Special" },
+      { "primaryGod": "Athena", "essentialBoon": "Divine Dash", "slot": "Dash" }
+    ],
+    "targetDuoBoons": [
+      { "name": "Merciful End", "pair": ["Ares", "Athena"], "priority": 5 }
+    ],
+    "hammerPriorities": ["Long Knuckle", "Breaching Cross", "Kinetic Launcher"]
+  }
+]
